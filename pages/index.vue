@@ -3,7 +3,7 @@
     <h1 class="title">The Forecast Weather App</h1>
     <div class="searchbar-container">
       <input type="text" placeholder="Search" v-model="searchInput" class="searchbar"/>
-      <NuxtLink class="button" v-if="searchInput !== ''"
+      <NuxtLink class="button" v-if="searchInput"
       :to="{ name:'weather-city', params:{city: searchInput} }"
       >
         Go
@@ -19,7 +19,7 @@ export default {
     return {
       searchInput : '',
     }
-  },
+  }
 }
 </script>
 
