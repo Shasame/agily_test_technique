@@ -33,6 +33,10 @@ body{
   display: block;
   text-align: center;
   justify-content: center;
+
+  position: fixed;
+  top: 40%;
+  right: 43%;
 }
 
 .button {
