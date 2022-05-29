@@ -101,6 +101,7 @@ app.get('/weather/:city', async (req,res) =>{
                     "error" : "API failed"
                 };
             res.status(400).json(errout);
+            return;
         }
     //Errors in case anything fails
     } catch (error) {
@@ -110,6 +111,7 @@ app.get('/weather/:city', async (req,res) =>{
             "error" : 'City name not recognized !'
         };
         res.status(404).json(errout);
+        return;
     }
 
     let out = {
