@@ -1,11 +1,11 @@
 # agily_test_technique
 Dépôt du test technique pour un stage Fullstack chez Agily.
 
-##Structure
+## Structure
 Vous trouverez dans ce dépot deux dossiers respectivement nommé [Exercice_1](/Exercice_1) et [Exercice_2](/Exercice_2) correspondant chacun à un exercice.
 Vous trouverez dans chacun un compte-rendu sous forme de README. 
 
-##Synthèse
+## Synthèse
 Pour la réalisation du premier exercice j'ai fais le choix d'utiliser NuxtJs car j'ai commencé à l'apprendre en début de semaine afin de me préparer à ce test.
 Toutefois la réalisation de cette exercice m'a montré qu'il me reste encore des choses a apprendre et des progrès à faire avec ce FrameWork afin d'être plus éfficace notamment en design en CSS.
 J'ai beaucoup apprécié la réalisation du second exercice, bien que se soit une API très simple me sortir la tête du design m'a fais du bien.
