@@ -13,3 +13,6 @@ J'ai réussi a prendre en main ExpressJs assez rapidement et utiliser PostMan po
 
 Ces exercices m'ont montré qu'il me reste encore du chemin à faire avant de devenir éfficace comme développeur FullStack mais me comforte dans mon idée que c'est ce que j'aime faire.
 Si je devais refaire ces exercices maintenant, je commencerai par le deuxième afin de ensuite pouvoir utiliser ma propre API de cache pour le premier exercice.
+
+# Authors
+Hadrien Combaz [@Shasame](https://github.com/Shasame)
