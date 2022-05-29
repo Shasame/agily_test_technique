@@ -8,7 +8,7 @@ const app = express();
 //Try to get port from the environement else put an arbitrary value
 const PORT = (process.env.PORT ? process.env.PORT : 3000);
 //Tyr to get OWA_API_KEY from th eenvironement else put this one ( to be removed )
-const APIkey = (process.env.OWA_API_KEY ? process.env.OWA_API_KEY : "db988691faf182dfc3750cd1e57f3718");
+const APIkey = process.env.OWA_API_KEY;
 
 const cache = new NodeCache();
 
