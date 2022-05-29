@@ -1,13 +1,40 @@
 # agily_test_technique
 
+## Structure
+Vous trouverez dans ce dossier tout le code correpondant à l'exercice 1.
+
+## Approche de résolution
+
+Cette exercice consiste à la réalisation d'un front-end pour une application de météo. Cette réalisation est segmentée en 2 grandes parties :  la collectes d'infomation via requète sur des APIs, et le design attendu des 2 pages de l'application.
+
+Mon approche a été de commencer par avoir une application respectant les consignes et fonctionnel avant de m'occuper du design.
+
+### Réalisation du projet
+
+- Création de l'application Nuxtjs
+- Réalisation de la page d'acceuil
+- Test de l'API OWA 
+  - D'abord sur Postman pour avoir une idée précise des réponses
+  - Ensuite dans le projet
+- Réalisation de la deuxième page sans design
+- Réfactoriasation du code
+- Ajouts du design demandé sur les 2 pages
+- Ajouts de l'API ~~GoogleMaps+PlacePhotos~~ Flickr pour les photos en fond 
+
+## Axes d'amélioration
+
+La réalisation du projet m'a pris autour de 14 heures mis bout à bout, ce qui représente bien plus que ce à quoi je m'attendais. J'ai passé beaucoup de temps sur le design sans être pleinement satisfait du résultat. Un axe d'amélioration est donc de travailler sur le design et donc en CSS afin de mieu en comprendre les spécificités et ne plus perdre autant de temps dessus.
+
+J'aurais préféré utiliser les APIs proposées par Google pour les images de fond afin d'avoir de meilleur image et qui correspondent mieux a ce qui est attendu. Malheureusement j'ai trouvé la documantation de ces APIs très peu claire et comme les images sont la dérnière chose que j'ai ajouté je n'ai pas eu le temps de comprendre comment les utilisers.
+
+Une amélioration est possible dans le choix de la ville comme un menu déroulant.
+
+# Nuxt Documentation
 ## Build Setup
 
 ```bash
 # install dependencies
 $ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
 
 # build for production and launch server
 $ npm run build
