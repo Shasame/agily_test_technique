@@ -1,5 +1,21 @@
 # agily_test_technique
 
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
 ## Structure
 Vous trouverez dans ce dossier tout le code correpondant à l'exercice 1.
 
@@ -27,24 +43,9 @@ La réalisation du projet m'a pris autour de 14 heures mis bout à bout, ce qui 
 
 J'aurais préféré utiliser les APIs proposées par Google pour les images de fond afin d'avoir de meilleur image et qui correspondent mieux a ce qui est attendu. Malheureusement j'ai trouvé la documantation de ces APIs très peu claire et comme les images sont la dérnière chose que j'ai ajouté je n'ai pas eu le temps de comprendre comment les utilisers.
 
-Une amélioration est possible dans le choix de la ville comme un menu déroulant.
+Une amélioration est possible dans le choix de la ville comme un menu déroulant. Ou rajouter l'option d'un pays.
 
 # Nuxt Documentation
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
 
